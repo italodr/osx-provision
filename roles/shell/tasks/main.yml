@@ -1,0 +1,23 @@
+---
+- name: Install shell
+  homebrew:
+    name: '{{ shell }}'
+
+- name: Add shell to /etc/shells
+  become: true
+  lineinfile:
+    path: /etc/shells
+    line: '/usr/local/bin/{{ shell }}'
+
+- name: Set shell
+  become: true
+  user:
+    name: '{{ ansible_env.USER }}'
+    shell: '/usr/local/bin/{{ shell }}'
+
+- name: Include shell tasks
+  include_tasks: '{{ item }}'
+  with_first_found:
+    - files: '{{ shell }}.yml'
+      paths: '{{ role_path }}/tasks'
+      skip: true

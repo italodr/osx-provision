@@ -1,0 +1,12 @@
+---
+- name: Clone preferences repo
+  git:
+    repo: '{{ preferences_repo }}'
+    dest: '{{ preferences_dest }}'
+
+- name: Link preferences
+  file:
+    src: '{{ preferences_dest }}/{{ item }}'
+    dest: '~/Library/Preferences/{{ item }}'
+    state: link
+  with_items: "{{ preferences_files }}"

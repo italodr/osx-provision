@@ -1,0 +1,36 @@
+---
+- name: Install taps
+  homebrew_tap:
+    name: '{{ item }}'
+  with_items: '{{ homebrew_taps }}'
+
+- name: Update Homebrew and upgrade all packages
+  homebrew:
+    update_homebrew: yes
+
+- name: Install Homebrew packages
+  homebrew:
+    name: '{{ homebrew_packages }}'
+
+- name: Install Homebrew cask applications
+  homebrew_cask:
+    name: '{{ item }}'
+  with_items: '{{ homebrew_cask_apps }}'
+
+- name: Cleanup Homebrew packages
+  command: brew cleanup -s
+
+- name: Install Vagrant plugins
+  command: 'vagrant plugin install {{ item }}'
+  with_items: '{{ vagrant_plugins }}'
+
+- name: Install composer global packages
+  composer:
+    command: require
+    global_command: yes
+    arguments: '{{ item }}'
+  with_items: '{{ composer_packages }}'
+
+- name: Install Mac App Store applications
+  command: 'mas install {{ item }}'
+  with_items: '{{ mas_apps }}'

@@ -1,0 +1,5 @@
+---
+- name: Install/update Git Aware Prompt
+  git:
+    repo: https://github.com/jimeh/git-aware-prompt
+    dest: ~/.bash/git-aware-prompt

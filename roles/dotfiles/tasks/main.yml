@@ -1,0 +1,12 @@
+---
+- name: Clone dotfiles repo
+  git:
+    repo: '{{ dotfiles_repo }}'
+    dest: '{{ dotfiles_dest }}'
+
+- name: Link dotfiles
+  file:
+    src: '{{ dotfiles_dest }}/{{ item }}'
+    dest: '~/{{ item }}'
+    state: link
+  with_items: "{{ dotfiles_files }}"

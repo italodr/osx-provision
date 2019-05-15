@@ -1,0 +1,82 @@
+# Applications
+homebrew_taps:
+  - homebrew/core
+  - caskroom/cask
+
+homebrew_packages:
+  - ansible
+  - composer
+  - ffmpeg
+  - node
+  - git
+  - nvm
+  - php
+  - phpunit
+  - yarn
+  - httpie
+  - python
+  - zsh
+  - icu4c
+  - libpng
+
+homebrew_cask_apps:
+  - appcleaner
+  - brave
+  - calibre
+  - dropbox
+  - firefox
+  - flux
+  - google-chrome
+  - gpgtools
+  - handbrake
+  - imageoptim
+  - iterm2
+  - keepingyouawake
+  - keka
+  - sequel-pro
+  - simplenote
+  - skyfonts
+  - slack
+  - spotify
+  - teamviewer
+  - the-unarchiver
+  - vagrant
+  - virtualbox
+  - visual-studio-code
+  - vlc
+  - zeplin
+
+vagrant_plugins:
+  - vagrant-hostmanager
+
+composer_packages:
+  - hirak/prestissimo
+
+mas_apps:
+  - 411643860  # DaisyDisk
+  - 668208984  # Giphy Capture
+  - 1091189122 # Bear
+
+# Dotfiles
+dotfiles_repo: git@github.com:italodr/dotfiles.git
+dotfiles_dest: ~/.dotfiles
+dotfiles_files:
+  - .ssh/config
+  - .aliases
+  - .bashrc
+  - .exports
+  - .gitconfig
+  - .gitignore
+  - .inputrc
+  - .vimrc
+  - .zpreztorc
+  - .zshrc
+
+# Preferences
+preferences_repo: git@github.com:italodr/preferences.git
+preferences_dest: ~/.preferences
+preferences_files:
+  - com.googlecode.iterm2.plist
+
+# Shell
+shell: zsh

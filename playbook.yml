@@ -1,0 +1,10 @@
+---
+- hosts: all
+  connection: local
+  vars_files:
+    - vars.yml
+  roles:
+    - applications
+    - dotfiles
+    - preferences
+    - shell
