@@ -1,0 +1,6 @@
+---
+- name: Install Node global packages
+  npm:
+    name: '{{ item }}'
+    global: yes
+  with_items: '{{ nodejs_global }}'

@@ -80,3 +80,9 @@ preferences_files:
 
 # Shell
 shell: zsh
+
+# Nodejs
+nodejs_global:
+  - pure-prompt
+  - npx
+  - npm-check-updates
