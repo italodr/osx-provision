@@ -41,7 +41,7 @@ homebrew_cask_apps:
   - teamviewer
   - the-unarchiver
   - vagrant
-  - virtualbox
+  # - virtualbox
   - visual-studio-code
   - vlc
   - zeplin

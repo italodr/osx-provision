@@ -21,3 +21,11 @@
   5. Run:
 
   `ansible-playbook playbook.yml -i "localhost," -K`
+
+  6. Install VirtualBox:
+
+    1. Mojave
+    You need to boot your machine in Recovery mode and [follow this link](http://osxdaily.com/2018/12/31/install-run-virtualbox-macos-install-kernel-fails/)
+
+    2. Older versions
+    `brew cask install virtualbox`
