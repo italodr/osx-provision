@@ -21,18 +21,18 @@ homebrew_packages:
 
 homebrew_cask_apps:
   - appcleaner
-  - brave
+  - brave-browser
   - calibre
   - dropbox
   - firefox
   - flux
   - google-chrome
-  - gpgtools
   - handbrake
   - imageoptim
   - iterm2
   - keepingyouawake
   - keka
+  - mas
   - sequel-pro
   - simplenote
   - skyfonts
@@ -41,7 +41,6 @@ homebrew_cask_apps:
   - teamviewer
   - the-unarchiver
   - vagrant
-  # - virtualbox
   - visual-studio-code
   - vlc
   - zeplin
@@ -86,3 +85,4 @@ nodejs_global:
   - pure-prompt
   - npx
   - npm-check-updates
+  - specificity-graph
