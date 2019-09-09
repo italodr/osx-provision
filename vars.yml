@@ -67,6 +67,7 @@ mas_apps:
   - 668208984  # Giphy Capture
   - 1054607607 # Helium
   - 441258766  # Magnet
+  - 497799835  # XCode
 
 # Dotfiles
 dotfiles_repo: git@github.com:italodr/dotfiles.git
