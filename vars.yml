@@ -2,6 +2,7 @@
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
+  - homebrew/cask-fonts
 
 homebrew_packages:
   - ansible
@@ -22,20 +23,28 @@ homebrew_packages:
 homebrew_cask_apps:
   - appcleaner
   - brave-browser
+  - browserstacklocal
   - calibre
   - dropbox
+  - figma
   - firefox
   - flux
+  - font-menlo-for-powerline
+  - font-fira-code
   - google-chrome
   - handbrake
   - imageoptim
   - iterm2
+  - itsycal
   - keepingyouawake
   - keka
   - mas
+  - postman
+  - screaming-frog-seo-spider
   - sequel-pro
   - simplenote
   - skyfonts
+  - skype
   - slack
   - spotify
   - teamviewer
@@ -44,6 +53,7 @@ homebrew_cask_apps:
   - visual-studio-code
   - vlc
   - zeplin
+  - zoomus
 
 vagrant_plugins:
   - vagrant-hostmanager
@@ -57,8 +67,6 @@ mas_apps:
   - 668208984  # Giphy Capture
   - 1054607607 # Helium
   - 441258766  # Magnet
-  - 692867256  # Simplenote
-  - 425424353  # The Unarchiver
 
 # Dotfiles
 dotfiles_repo: git@github.com:italodr/dotfiles.git
