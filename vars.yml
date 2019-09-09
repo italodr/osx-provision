@@ -52,9 +52,13 @@ composer_packages:
   - hirak/prestissimo
 
 mas_apps:
+  - 1091189122 # Bear
   - 411643860  # DaisyDisk
   - 668208984  # Giphy Capture
-  - 1091189122 # Bear
+  - 1054607607 # Helium
+  - 441258766  # Magnet
+  - 692867256  # Simplenote
+  - 425424353  # The Unarchiver
 
 # Dotfiles
 dotfiles_repo: git@github.com:italodr/dotfiles.git
