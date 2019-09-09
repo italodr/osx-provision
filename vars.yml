@@ -94,13 +94,13 @@ shell: zsh
 
 # Nodejs
 nodejs_global:
-  - pure-prompt
-  - npx
-  - npm-check-updates
-  - specificity-graph
   - create-next-app
   - create-react-app
   - expo
   - lerna
   - nodemon
   - now
+  - npx
+  - npm-check-updates
+  - pure-prompt
+  - specificity-graph
