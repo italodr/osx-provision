@@ -86,3 +86,9 @@ nodejs_global:
   - npx
   - npm-check-updates
   - specificity-graph
+  - create-next-app
+  - create-react-app
+  - expo
+  - lerna
+  - nodemon
+  - now
