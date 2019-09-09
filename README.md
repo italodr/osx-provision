@@ -20,12 +20,26 @@
 
   5. Run:
 
+  ⚠️**IMPORTANT befor you run the next command**
+  You need to have:
+  - been logged in into iCloud
+  - created an ssh-key for github connection
+
   `ansible-playbook playbook.yml -i "localhost," -K`
 
-  6. Install VirtualBox:
+  ----
 
-    1. Mojave
+  ## Install VirtualBox:
+
+  1. OS Mojave +10.14.5
     You need to boot your machine in Recovery mode and [follow this link](http://osxdaily.com/2018/12/31/install-run-virtualbox-macos-install-kernel-fails/)
 
-    2. Older versions
+    Basically you need to:
+    - Download VirtualBox
+    - Restart your Mac into Recovery Mode (Cmd + R)
+    - Open Utilities > Terminal
+    - Type `spctl kext-consent add VB5E2TV963` and hit Return
+    - Restart your Mac normally
+
+  2. Older versions
     `brew cask install virtualbox`
