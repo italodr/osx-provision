@@ -80,7 +80,6 @@ dotfiles_files:
   - .gitconfig
   - .gitignore
   - .inputrc
-  - .vimrc
   - .zpreztorc
   - .zshrc
 
