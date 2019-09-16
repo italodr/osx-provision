@@ -1,0 +1,11 @@
+- name: Install Mac Finder settings
+  command: 'defaults write com.apple.finder {{ item }}'
+  with_items: '{{ os_settings_fider }}'
+
+- name: Install Mac Mouse settings
+  command: 'defaults write com.apple.driver.AppleBluetoothMultitouch.mouse {{ item }}'
+  with_items: '{{ os_settings_mouse }}'
+
+- name: Install Mac Trackpad settings
+  command: 'defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad {{ item }}'
+  with_items: '{{ os_settings_trackpad }}'
