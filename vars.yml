@@ -33,6 +33,7 @@ homebrew_cask_apps:
   - font-fira-code
   - google-chrome
   - handbrake
+  - hyper
   - imageoptim
   - iterm2
   - itsycal
@@ -79,6 +80,8 @@ dotfiles_files:
   - .exports
   - .gitconfig
   - .gitignore
+  - .hyper_plugins
+  - .hyper.js
   - .inputrc
   - .zpreztorc
   - .zshrc
