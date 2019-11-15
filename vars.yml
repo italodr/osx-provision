@@ -10,6 +10,7 @@ homebrew_packages:
   - ffmpeg
   - node
   - git
+  - imagemagick
   - nvm
   - php
   - phpunit
