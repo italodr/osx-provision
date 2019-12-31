@@ -67,9 +67,9 @@ composer_packages:
 mas_apps:
   - 1091189122 # Bear
   # - 411643860  # DaisyDisk — unable to download
-  - 668208984  # Giphy Capture
+  - 668208984 # Giphy Capture
   - 1054607607 # Helium
-  - 441258766  # Magnet
+  - 441258766 # Magnet
   # - 497799835  # XCode — to slow for this process
 
 # Dotfiles
@@ -85,6 +85,7 @@ dotfiles_files:
   - .hyper_plugins
   - .hyper.js
   - .inputrc
+  - .vimrc
   - .zpreztorc
   - .zshrc
 
@@ -96,6 +97,9 @@ preferences_files:
 
 # Shell
 shell: zsh
+
+# Vim install plugins command
+vim_plugins: vim +'PlugInstall --sync' +qa
 
 # Nodejs
 nodejs_global:
@@ -112,41 +116,41 @@ nodejs_global:
 
 # OS settings
 os_settings_finder:
-  - 'AppleShowAllFiles YES' # Show hidden files
-  - 'SidebarShowingSignedIntoiCloud NO'
+  - "AppleShowAllFiles YES" # Show hidden files
+  - "SidebarShowingSignedIntoiCloud NO"
 
 os_settings_mouse:
-  - 'MouseOneFingerDoubleTapGesture 0'
-  - 'MouseTwoFingerHorizSwipeGesture 2'
-  - 'MouseVerticalScroll YES'
-  - 'UserPreferences YES'
-  - 'MouseHorizontalScroll YES'
-  - 'MouseButtonDivision 55'
-  - 'MouseMomentumScroll YES'
-  - 'MouseButtonMode TwoButton'
-  - 'MouseTwoFingerDoubleTapGesture 3'
+  - "MouseOneFingerDoubleTapGesture 0"
+  - "MouseTwoFingerHorizSwipeGesture 2"
+  - "MouseVerticalScroll YES"
+  - "UserPreferences YES"
+  - "MouseHorizontalScroll YES"
+  - "MouseButtonDivision 55"
+  - "MouseMomentumScroll YES"
+  - "MouseButtonMode TwoButton"
+  - "MouseTwoFingerDoubleTapGesture 3"
 
 os_settings_trackpad:
-  - 'TrackpadCornerSecondaryClick 0'
-  - 'TrackpadPinch 1'
-  - 'USBMouseStopsTrackpad 0'
-  - 'TrackpadFourFingerVertSwipeGesture 2'
-  - 'TrackpadRotate 1'
-  - 'TrackpadHorizScroll 1'
-  - 'TrackpadTwoFingerDoubleTapGesture 1'
-  - 'TrackpadMomentumScroll YES'
-  - 'TrackpadFourFingerPinchGesture 2'
-  - 'UserPreferences YES'
-  - 'Clicking YES'
-  - 'TrackpadThreeFingerTapGesture 2'
-  - 'TrackpadThreeFingerHorizSwipeGesture 2'
-  - 'TrackpadScroll YES'
-  - 'DragLock NO'
-  - 'TrackpadFiveFingerPinchGesture 2'
-  - 'TrackpadThreeFingerVertSwipeGesture 2'
-  - 'TrackpadTwoFingerFromRightEdgeSwipeGesture 3'
-  - 'Dragging NO'
-  - 'TrackpadRightClick YES'
-  - 'TrackpadHandResting YES'
-  - 'TrackpadFourFingerHorizSwipeGesture 2'
-  - 'TrackpadThreeFingerDrag NO'
+  - "TrackpadCornerSecondaryClick 0"
+  - "TrackpadPinch 1"
+  - "USBMouseStopsTrackpad 0"
+  - "TrackpadFourFingerVertSwipeGesture 2"
+  - "TrackpadRotate 1"
+  - "TrackpadHorizScroll 1"
+  - "TrackpadTwoFingerDoubleTapGesture 1"
+  - "TrackpadMomentumScroll YES"
+  - "TrackpadFourFingerPinchGesture 2"
+  - "UserPreferences YES"
+  - "Clicking YES"
+  - "TrackpadThreeFingerTapGesture 2"
+  - "TrackpadThreeFingerHorizSwipeGesture 2"
+  - "TrackpadScroll YES"
+  - "DragLock NO"
+  - "TrackpadFiveFingerPinchGesture 2"
+  - "TrackpadThreeFingerVertSwipeGesture 2"
+  - "TrackpadTwoFingerFromRightEdgeSwipeGesture 3"
+  - "Dragging NO"
+  - "TrackpadRightClick YES"
+  - "TrackpadHandResting YES"
+  - "TrackpadFourFingerHorizSwipeGesture 2"
+  - "TrackpadThreeFingerDrag NO"
