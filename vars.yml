@@ -1,7 +1,7 @@
 # Applications
 homebrew_taps:
   - homebrew/core
-  - caskroom/cask
+  #- caskroom/cask
   - homebrew/cask-fonts
 
 homebrew_packages:
@@ -38,7 +38,7 @@ homebrew_cask_apps:
   - itsycal
   - keepingyouawake
   - keka
-  - mas
+  #- mas
   - postman
   - screaming-frog-seo-spider
   - sequel-pro
@@ -109,7 +109,7 @@ vim_plugins: vim +'PlugInstall --sync' +qa
 # Nodejs
 nodejs_global:
   - nodemon
-  - npx
+  #- npx
   - npm-check-updates
   - pure-prompt
   - specificity-graph

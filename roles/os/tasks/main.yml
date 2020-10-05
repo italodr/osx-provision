@@ -1,6 +1,6 @@
 - name: Install Mac Finder settings
   command: 'defaults write com.apple.finder {{ item }}'
-  with_items: '{{ os_settings_fider }}'
+  with_items: '{{ os_settings_finder }}'
 
 - name: Install Mac Mouse settings
   command: 'defaults write com.apple.driver.AppleBluetoothMultitouch.mouse {{ item }}'
