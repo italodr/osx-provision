@@ -25,18 +25,14 @@ homebrew_packages:
 homebrew_cask_apps:
   - anaconda
   - appcleaner
-  - brave-browser
   - browserstacklocal
   - calibre
-  - dropbox
   - figma
   - firefox
   - flux
-  - font-menlo-for-powerline
   - font-fira-code
   - google-chrome
   - handbrake
-  - hyper
   - imageoptim
   - iterm2
   - itsycal
@@ -56,7 +52,6 @@ homebrew_cask_apps:
   - vagrant
   - visual-studio-code
   - vlc
-  - zeplin
   - zoomus
 
 vagrant_plugins:
@@ -83,8 +78,6 @@ dotfiles_files:
   - .exports
   - .gitconfig
   - .gitignore
-  - .hyper_plugins
-  - .hyper.js
   - .inputrc
   - .vimrc
   - .zpreztorc
@@ -104,12 +97,7 @@ vim_plugins: vim +'PlugInstall --sync' +qa
 
 # Nodejs
 nodejs_global:
-  - create-next-app
-  - create-react-app
-  - expo
-  - lerna
   - nodemon
-  - now
   - npx
   - npm-check-updates
   - pure-prompt
