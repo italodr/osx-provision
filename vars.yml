@@ -62,11 +62,22 @@ composer_packages:
 
 mas_apps:
   - 1091189122 # Bear
-  # - 411643860  # DaisyDisk — unable to download
   - 668208984 # Giphy Capture
   - 1054607607 # Helium
   - 441258766 # Magnet
+  - 1444383602 # Goodnotes
+  - 1180074773 # Miro
   # - 497799835  # XCode — to slow for this process
+  # - Appcleaner
+  # - Copia de seguridad y sincronización de Google
+  # - DaisyDisk
+  # - Docker
+  # - Forticlient
+  # - GPG Keychain
+  # - Imageoptim
+  # - Tor Browser
+  # - uTorrent Web
+  # - iMazing HEIC COnverter
 
 # Dotfiles
 dotfiles_repo: git@github.com:italodr/dotfiles.git
