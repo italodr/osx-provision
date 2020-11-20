@@ -30,7 +30,3 @@
     global_command: yes
     arguments: '{{ item }}'
   with_items: '{{ composer_packages }}'
-
-#- name: Install Mac App Store applications
-#  command: 'mas install {{ item }}'
-#  with_items: '{{ mas_apps }}'

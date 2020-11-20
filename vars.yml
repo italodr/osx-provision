@@ -25,7 +25,6 @@ homebrew_packages:
 homebrew_cask_apps:
   - anaconda
   - appcleaner
-  - browserstacklocal
   - calibre
   - figma
   - firefox
@@ -38,16 +37,13 @@ homebrew_cask_apps:
   - itsycal
   - keepingyouawake
   - keka
-  #- mas
   - postman
   - screaming-frog-seo-spider
   - sequel-pro
-  - simplenote
   - skyfonts
   - skype
   - slack
   - spotify
-  - teamviewer
   - the-unarchiver
   - vagrant
   - visual-studio-code
@@ -59,25 +55,6 @@ vagrant_plugins:
 
 composer_packages:
   - hirak/prestissimo
-
-mas_apps:
-  - 1091189122 # Bear
-  - 668208984 # Giphy Capture
-  - 1054607607 # Helium
-  - 441258766 # Magnet
-  - 1444383602 # Goodnotes
-  - 1180074773 # Miro
-  # - 497799835  # XCode — to slow for this process
-  # - Appcleaner
-  # - Copia de seguridad y sincronización de Google
-  # - DaisyDisk
-  # - Docker
-  # - Forticlient
-  # - GPG Keychain
-  # - Imageoptim
-  # - Tor Browser
-  # - uTorrent Web
-  # - iMazing HEIC COnverter
 
 # Dotfiles
 dotfiles_repo: git@github.com:italodr/dotfiles.git
@@ -113,6 +90,7 @@ nodejs_global:
   - npm-check-updates
   - pure-prompt
   - specificity-graph
+  - lighthouse
 
 # OS settings
 os_settings_finder:
