@@ -7,6 +7,7 @@ homebrew_taps:
 homebrew_packages:
   - ansible
   - composer
+  - docker
   - ffmpeg
   - node
   - git
@@ -16,7 +17,6 @@ homebrew_packages:
   - php
   - phpunit
   - yarn
-  - httpie
   - python
   - zsh
   - icu4c
@@ -25,7 +25,10 @@ homebrew_packages:
 homebrew_cask_apps:
   - anaconda
   - appcleaner
+  - brave-browser
   - calibre
+  - discord
+  - docker
   - figma
   - firefox
   - flux
@@ -37,17 +40,15 @@ homebrew_cask_apps:
   - itsycal
   - keepingyouawake
   - keka
+  - loom
   - postman
-  - screaming-frog-seo-spider
   - sequel-pro
-  - skyfonts
-  - skype
   - slack
   - spotify
   - the-unarchiver
-  - vagrant
   - visual-studio-code
   - vlc
+  - whatsapp
   - zoomus
 
 vagrant_plugins:
@@ -86,11 +87,12 @@ vim_plugins: vim +'PlugInstall --sync' +qa
 # Nodejs
 nodejs_global:
   - nodemon
-  #- npx
+  - npx
   - npm-check-updates
   - pure-prompt
   - specificity-graph
   - lighthouse
+  - lighthouse-parade
 
 # OS settings
 os_settings_finder:
