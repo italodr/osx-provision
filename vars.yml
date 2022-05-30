@@ -87,6 +87,7 @@ vim_plugins: vim +'PlugInstall --sync' +qa
 
 # Nodejs
 nodejs_global:
+  - "@remix-project/remixd"
   - nodemon
   - npx
   - npm-check-updates
