@@ -94,7 +94,7 @@ nodejs_global:
   - lighthouse-parade
 
 # OhMyZSH
-oh_my_zsh_theme: gnzh
+oh_my_zsh_theme: spaceship
 oh_my_zsh_dependencies:
   - git
   - zsh
@@ -104,7 +104,7 @@ oh_my_zsh_install: yes
 users:
   - username: italo
     oh_my_zsh:
-      theme: gnzh
+      theme: spaceship
       plugins:
         - git
 
