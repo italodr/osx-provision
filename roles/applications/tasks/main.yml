@@ -19,14 +19,3 @@
 
 - name: Cleanup Homebrew packages
   command: brew cleanup -s
-
-- name: Install Vagrant plugins
-  command: 'vagrant plugin install {{ item }}'
-  with_items: '{{ vagrant_plugins }}'
-
-- name: Install composer global packages
-  composer:
-    command: require
-    global_command: yes
-    arguments: '{{ item }}'
-  with_items: '{{ composer_packages }}'

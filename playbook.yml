@@ -6,7 +6,7 @@
   roles:
     - applications
     - dotfiles
-    - preferences
+    # - preferences
     - shell
     - nodejs
     - os

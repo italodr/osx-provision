@@ -11,11 +11,14 @@ homebrew_packages:
   - ffmpeg
   - node
   - git
+  - gnupg
+  - gnupg2
   - imagemagick
   - mkcert
   - nvm
   - php
   - phpunit
+  - pnpm
   - yarn
   - python
   - zsh
@@ -23,13 +26,13 @@ homebrew_packages:
   - libpng
 
 homebrew_cask_apps:
-  - anaconda
+  #- anaconda
   - appcleaner
   - bitwarden
   - brave-browser
   - calibre
   - discord
-  - docker
+  #- docker
   - figma
   - firefox
   - flux
@@ -50,13 +53,7 @@ homebrew_cask_apps:
   - visual-studio-code
   - vlc
   - whatsapp
-  - zoomus
-
-vagrant_plugins:
-  - vagrant-hostmanager
-
-composer_packages:
-  - hirak/prestissimo
+  #- zoomus
 
 # Dotfiles
 dotfiles_repo: git@github.com:italodr/dotfiles.git
@@ -74,10 +71,10 @@ dotfiles_files:
   - .zshrc
 
 # Preferences
-preferences_repo: git@github.com:italodr/preferences.git
-preferences_dest: ~/.preferences
-preferences_files:
-  - com.googlecode.iterm2.plist
+# preferences_repo: git@github.com:italodr/preferences.git
+# preferences_dest: ~/.preferences
+# preferences_files:
+#   - com.googlecode.iterm2.plist
 
 # Shell
 shell: zsh
@@ -87,14 +84,29 @@ vim_plugins: vim +'PlugInstall --sync' +qa
 
 # Nodejs
 nodejs_global:
-  - "@remix-project/remixd"
+  #- "@remix-project/remixd"
   - nodemon
-  - npx
+  # - npx
   - npm-check-updates
-  - pure-prompt
+  # - pure-prompt
   - specificity-graph
   - lighthouse
   - lighthouse-parade
+
+# OhMyZSH
+oh_my_zsh_theme: gnzh
+oh_my_zsh_dependencies:
+  - git
+  - zsh
+oh_my_zsh_plugins:
+  - git
+oh_my_zsh_install: yes
+users:
+  - username: italo
+    oh_my_zsh:
+      theme: gnzh
+      plugins:
+        - git
 
 # OS settings
 os_settings_finder:

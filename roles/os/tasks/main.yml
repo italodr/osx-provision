@@ -8,4 +8,4 @@
 
 - name: Install Mac Trackpad settings
   command: 'defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad {{ item }}'
-  with_items: '{{ os_settings_trackpad }}'
+  with_items: '{{ os_settings_trackpad }}''
