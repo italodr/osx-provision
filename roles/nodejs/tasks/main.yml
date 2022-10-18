@@ -4,3 +4,6 @@
     name: '{{ item }}'
     global: yes
   with_items: '{{ nodejs_global }}'
+
+- name: Install Volta Node manager
+  command: 'curl https://get.volta.sh | bash'
