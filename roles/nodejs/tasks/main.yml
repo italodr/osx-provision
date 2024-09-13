@@ -1,9 +1,6 @@
 ---
 - name: Install Node global packages
   npm:
-    name: '{{ item }}'
+    name: "{{ item }}"
     global: yes
-  with_items: '{{ nodejs_global }}'
-
-- name: Install Volta Node manager
-  command: 'curl https://get.volta.sh | bash'
+  with_items: "{{ nodejs_global }}"

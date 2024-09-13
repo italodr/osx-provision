@@ -9,30 +9,34 @@ homebrew_packages:
   - composer
   - docker
   - ffmpeg
-  - node
   - git
   - gnupg
   - gnupg2
+  - icu4c
   - imagemagick
+  - libpng
   - mkcert
+  - mongodb-atlas-cli
+  - mongodb-database-tools
+  - mongosh
+  - node
   - nvm
   - php
   - phpunit
   - pnpm
-  - yarn
   - python
+  - sqlite
+  - supabase
+  - yarn
   - zsh
-  - icu4c
-  - libpng
 
 homebrew_cask_apps:
-  #- anaconda
   - appcleaner
   - bitwarden
   - brave-browser
   - calibre
+  - db-browser-for-sqlite
   - discord
-  #- docker
   - figma
   - firefox
   - flux
@@ -53,7 +57,7 @@ homebrew_cask_apps:
   - visual-studio-code
   - vlc
   - whatsapp
-  #- zoomus
+  - yacreader
 
 # Dotfiles
 dotfiles_repo: git@github.com:italodr/dotfiles.git
@@ -84,14 +88,14 @@ vim_plugins: vim +'PlugInstall --sync' +qa
 
 # Nodejs
 nodejs_global:
-  #- "@remix-project/remixd"
   - nodemon
-  # - npx
+  - npx
   - npm-check-updates
-  # - pure-prompt
-  - specificity-graph
-  - lighthouse
-  - lighthouse-parade
+  - vercel
+  - pnpm
+  # - specificity-graph
+  # - lighthouse
+  # - lighthouse-parade
 
 # OhMyZSH
 oh_my_zsh_theme: spaceship
