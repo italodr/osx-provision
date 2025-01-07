@@ -16,9 +16,6 @@ homebrew_packages:
   - imagemagick
   - libpng
   - mkcert
-  - mongodb-atlas-cli
-  - mongodb-database-tools
-  - mongosh
   - node
   - nvm
   - php
@@ -26,7 +23,6 @@ homebrew_packages:
   - pnpm
   - python
   - sqlite
-  - supabase
   - yarn
   - zsh
 
@@ -48,7 +44,6 @@ homebrew_cask_apps:
   - itsycal
   - keepingyouawake
   - keka
-  - loom
   - postman
   - sequel-pro
   - slack
@@ -57,7 +52,6 @@ homebrew_cask_apps:
   - visual-studio-code
   - vlc
   - whatsapp
-  - yacreader
 
 # Dotfiles
 dotfiles_repo: git@github.com:italodr/dotfiles.git
@@ -92,7 +86,6 @@ nodejs_global:
   - npx
   - npm-check-updates
   - vercel
-  - pnpm
   # - specificity-graph
   # - lighthouse
   # - lighthouse-parade
